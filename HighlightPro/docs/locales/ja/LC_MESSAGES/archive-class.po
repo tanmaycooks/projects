@@ -1,0 +1,296 @@
+# PyMuPDF Japanese documentation
+# Copyright (C) 2015-2023, Artifex
+# This file is distributed under the same license as the PyMuPDF package.
+# Jamie Lemon <jamie.lemon@artifex.com>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyMuPDF 1.23.0rc1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-04-17 15:00+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Suzan Sanver <suzan.sanver@dijipiji.com>\n"
+"Language: ja\n"
+"Language-Team: ja <suzan.sanver@dijipiji.com>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../header.rst:-1 d617abc2bac44b79b8895c5a477d435e
+msgid "Artifex"
+msgstr ""
+
+#: ../../header.rst:-1 11676cd8a070416581b0f70844041acd
+msgid ""
+"PyMuPDF is a high-performance Python library for data extraction, "
+"analysis, conversion & manipulation of PDF (and other) documents."
+msgstr "PyMuPDF は、PDF （およびその他の）ドキュメントのデータ抽出、分析、変換、操作のための高性能な Python ライブラリです。"
+
+#: ../../header.rst:-1 e1542b64861144078ef1fec53974ec47
+msgid ""
+"PDF Text Extraction, PDF Image Extraction, PDF Conversion, PDF Tables, "
+"PDF Splitting, PDF Creation, Pyodide, PyScript"
+msgstr "PDFテキスト抽出、PDFイメージ抽出、PDF変換、PDFテーブル、PDF分割、PDF作成, Pyodide, PyScript"
+
+#: ../../archive-class.rst:7 2f0bf46e9ac54fd68b23bc9210c74150
+msgid "Archive"
+msgstr "Archive (アーカイブ)"
+
+#: ../../archive-class.rst:9 46f4ce49429542a1b693c99eadca160d
+msgid "New in v1.21.0"
+msgstr "v1.21.0での新機能"
+
+#: ../../archive-class.rst:11 90ae46c1e95142ec8216ccb598850553
+msgid ""
+"This class represents a generalization of file folders and container "
+"files like ZIP and TAR archives. Archives allow accessing arbitrary "
+"collections of file folders, ZIP / TAR files and single binary data "
+"elements as if they all were part of one hierarchical tree of folders."
+msgstr "このクラスは、ファイルフォルダーやZIPやTARアーカイブのようなコンテナファイルの一般化を表します。アーカイブは、ファイルフォルダー、ZIP/TARファイル、および単一のバイナリデータ要素の任意のコレクションにアクセスできるようにし、すべてが1つの階層的なフォルダーツリーの一部であるかのようにします。"
+
+#: ../../archive-class.rst:13 3fd435f3261d48d4a0a727f172c9ddb6
+msgid ""
+"In PyMuPDF, archives are currently only used by :ref:`Story` objects to "
+"specify where to look for fonts, images and other resources."
+msgstr ""
+"PyMuPDFでは、アーカイブは現在、フォント、画像、およびその他のリソースを検索する場所を指定するために :ref:`Story` "
+"オブジェクトによってのみ使用されています。"
+
+#: ../../archive-class.rst:16 1829b6e552a94dc5a3c61784652f1d73
+msgid "**Method / Attribute**"
+msgstr "**メソッド / 属性**"
+
+#: ../../archive-class.rst:16 2bf68b939c1d44f7be1ca6d449c27e53
+msgid "**Short Description**"
+msgstr "**簡単な説明**"
+
+#: ../../archive-class.rst:18 5b94b5437aa84ff9a245301a956f8d18
+msgid ":meth:`Archive.add`"
+msgstr ""
+
+#: ../../archive-class.rst:18 8c9d95f042814c25a324f3ce9ec79170
+msgid "add new data to the archive"
+msgstr "アーカイブに新しいデータを追加する"
+
+#: ../../archive-class.rst:19 d5b520ec1d214317ac63ec60b509eb43
+msgid ":meth:`Archive.has_entry`"
+msgstr ""
+
+#: ../../archive-class.rst:19 054f56f20f6d4fa8a033a1dd80bd3cb6
+msgid "check if given name is a member"
+msgstr "名前で指定されたデータを読む"
+
+#: ../../archive-class.rst:20 dc2f8062523044d19ec994b1828e3195
+msgid ":meth:`Archive.read_entry`"
+msgstr ""
+
+#: ../../archive-class.rst:20 e680d9fb1dd44a7f85a61af9853e4e6d
+msgid "read the data given by the name"
+msgstr "名前で指定されたデータを読む"
+
+#: ../../archive-class.rst:21 e41ca685715b4dcbb45e53b209029663
+msgid ":attr:`Archive.entry_list`"
+msgstr ""
+
+#: ../../archive-class.rst:21 f31453b71aeb4ade88edbebb982ff071
+msgid "list[dict] of archive items"
+msgstr "アーカイブアイテムのリスト[辞書]"
+
+#: ../../archive-class.rst:24 98357f302ae84859bd401682492995fa
+msgid "**Class API**"
+msgstr "クラス API"
+
+#: ../../archive-class.rst:30 422de49b171f4d18afbb8516afbc9095
+msgid "Creates a new archive. Without parameters, an empty archive is created."
+msgstr "新しいアーカイブを作成します。パラメーターが指定されない場合、空のアーカイブが作成されます。"
+
+#: ../../archive-class.rst:32 ae5782f0b4a54bc3be2c009daab1a7ca
+msgid "If provided, `content` may be one of the following:"
+msgstr "提供される場合、`content` は次のいずれかであることができます："
+
+#: ../../archive-class.rst:34 fbf461b873ef4da5b1fda4e484d46cbf
+msgid "another Archive: the archive is being made a sub-archive of the new one."
+msgstr "別の Archive: アーカイブは新しいアーカイブのサブアーカイブになります。"
+
+#: ../../archive-class.rst:36 6ac58a1199014e0a932f80579a01fff4
+msgid ""
+"a string: this must be the name of a local folder or file. `pathlib.Path`"
+" objects are also supported."
+msgstr "文字列: これはローカルフォルダまたはファイルの名前である必要があります。`pathlib.Path` オブジェクトもサポートされています。"
+
+#: ../../archive-class.rst:38 63b7f15541554ca28bb94dacd2e33b99
+msgid ""
+"A **folder** will be converted to a sub-archive, so its files (and any "
+"sub-folders) can be accessed by their names."
+msgstr "**フォルダ** はサブアーカイブに変換され、そのファイル（およびサブフォルダ）は名前でアクセスできます。"
+
+#: ../../archive-class.rst:39 547200864ba043b295790af8b0b2a6cf
+msgid ""
+"A **file** will be read with mode `\"rb\"` and these binary data (a "
+"`bytes` object) be treated as a single-member sub-archive. In this case, "
+"the `path` parameter is **mandatory** and should be the member name under"
+" which this item can be found / retrieved."
+msgstr ""
+"**ファイル** はモード `\"rb\"` で読み取られ、これらのバイナリデータ（ `bytes` "
+"オブジェクト）は単一のメンバーサブアーカイブとして扱われます。この場合、`path` パラメーターは **必須** "
+"で、このアイテムが見つかる/取得できるメンバー名である必要があります。"
+
+#: ../../archive-class.rst:41 26fc387cc92a49b18be5fbb6e276303a
+msgid ""
+"a `zipfile.ZipFile` or `tarfile.TarFile` object: Will be added as a sub-"
+"archive."
+msgstr "`zipfile.ZipFile` または `tarfile.TarFile` オブジェクト: サブアーカイブとして追加されます。"
+
+#: ../../archive-class.rst:43 a95ece3a221d4379bbdf468f3d625687
+msgid ""
+"a Python binary object (`bytes`, `bytearray`, `io.BytesIO`): this will "
+"add a single-member sub-archive. In this case, the `path` parameter is "
+"**mandatory** and should be the member name under which this item can be "
+"found / retrieved."
+msgstr ""
+"Python バイナリオブジェクト（ `bytes`、`bytearray` 、`io.BytesIO` ）: "
+"これは単一のメンバーサブアーカイブを追加します。この場合、`path` パラメーターは **必須** "
+"で、このアイテムが見つかる/取得できるメンバー名である必要があります。"
+
+#: ../../archive-class.rst:45 6cefb5b8a5ae4538b432a671e5624634
+
+msgid ""
+"a tuple `(data, name)`: This will add a single-member sub-archive with "
+"the member name ``name``. ``data`` may be a Python binary object or a "
+"local file name (in which case its binary file content is used). Use this"
+" format if you need to specify `path`."
+msgstr ""
+"タプル `(data, name)` : これはメンバー名 ``name`` を持つ単一のメンバーサブアーカイブを追加します。 ``data`` "
+"はPythonバイナリオブジェクトまたはローカルファイル名である可能性があります（その場合、バイナリファイルのコンテンツが使用されます）。`path`"
+" を指定する必要がある場合は、このフォーマットを使用してください。"
+
+#: ../../archive-class.rst:47 8916743a3d2e482e8fac00263e7c6839
+msgid ""
+"a Python sequence: This is a convenience format to specify any "
+"combination of the above."
+msgstr "Pythonシーケンス: これは上記のいずれかの組み合わせを指定するための便益フォーマットです。"
+
+#: ../../archive-class.rst:49 ea2b6c8e209e48e7a488431fc4d5dc5b
+msgid "If provided, `path` must be a string."
+msgstr "提供される場合、`path` は文字列である必要があります。"
+
+#: ../../archive-class.rst:51 ce6b5084838e47998c1c0930a1c90a85
+msgid ""
+"If `content` is either binary data or a file name, this parameter is "
+"mandatory and must be the name under which the data can be found."
+msgstr "`content` がバイナリデータまたはファイル名の場合、このパラメーターは必須で、データが見つかる名前である必要があります。"
+
+#: ../../archive-class.rst:53 bfdfb9696f9d4267b9a0abcd4944814d
+msgid ""
+"Otherwise this parameter is optional. It can be used to simulate a folder"
+" name or a mount point, under which this sub-archive's elements can be "
+"found. For example this specification `Archive((data, \"name\"), "
+"\"path\")` means that `data` will be found using the element name "
+"`\"path/name\"`. Similar is true for other sub-archives: to retrieve "
+"members of a ZIP sub-archive, their names must be prefixed with "
+"`\"path/\"`. The main purpose of this parameter probably is to "
+"differentiate between duplicate names."
+msgstr ""
+"それ以外の場合、このパラメーターはオプションです。これは、このサブアーカイブの要素が見つかるマウントポイントまたはフォルダ名をシミュレートするために使用できます。たとえば、この仕様"
+" `Archive((data, \"name\"), \"path\")` は、データが要素名 \"`\"path/name\"` "
+"で見つかります。他のサブアーカイブについても同様です：ZIPサブアーカイブのメンバーを取得するには、その名前に `\"path/\"` "
+"を接頭辞として追加する必要があります。このパラメーターの主な目的は、重複する名前を区別することである可能性があります。"
+
+#: ../../archive-class.rst:55 61677063f42641209e56a228534c33f2
+msgid ""
+"If duplicate entry names exist in the archive, always the last entry with"
+" that name will be found / retrieved. During archive creation, or "
+"appending more data to an archive (see :meth:`Archive.add`) no check for "
+"duplicates will be made. Use the `path` parameter to prevent this from "
+"happening."
+msgstr ""
+"アーカイブ内に重複するエントリ名が存在する場合、常にその名前の最後のエントリが見つかり/取得されます。アーカイブの作成中、またはアーカイブにさらにデータを追加する際"
+" :meth:`Archive.add` を参照）、重複をチェックしません。この問題を防ぐために path パラメーターを使用してください。"
+
+#: ../../archive-class.rst:59 dc6f307620b443e59c60965c461c7642
+msgid ""
+"Append a sub-archive. The meaning of the parameters are exactly the same "
+"as explained above. Of course, parameter `content` is not optional here."
+msgstr "サブアーカイブを追加します。パラメータの意味は上記とまったく同じです。もちろん、ここではパラメータ `content` はオプションではありません。"
+
+#: ../../archive-class.rst:63 e1ad4f204f754654a6584c25842135fb
+msgid "Checks whether an entry exists in any of the sub-archives."
+msgstr "エントリがサブアーカイブのいずれかに存在するかどうかを確認します。"
+
+#: ../../archive-class.rst 6748d18e7f6946d6b1497df192130d43
+#: feda328ffa8445dea3f5c2af2f98fdad
+msgid "Parameters"
+msgstr "パラメータ:"
+
+#: ../../archive-class.rst:65 ../../archive-class.rst:73
+#: 0458d0fa598349cf8a25c5752c8f840b 1806b51351774f19944fb27526851e14
+msgid ""
+"The fully qualified name of the entry. So must include any `path` prefix "
+"under which the entry's sub-archive has been added."
+msgstr "エントリの完全修飾名。エントリのサブアーカイブが追加されたパスのプレフィックスを含む必要があります。"
+
+#: ../../archive-class.rst 0fb6926638df4e5d88376ea0eea6219d
+#: b0c94ca65df04318aad6ff6b1d22633e
+msgid "Returns"
+msgstr "戻り値:"
+
+#: ../../archive-class.rst:67 484ce7feed2141d4b486ae9b49c1c29e
+msgid "`True` or `False`."
+msgstr "`True` または `False` 。"
+
+#: ../../archive-class.rst:71 affe45e0783c46f782832cb77fb3eb49
+msgid "Retrieve the data of an entry."
+msgstr "エントリのデータを取得します。"
+
+#: ../../archive-class.rst:75 dc88278b5cee4df6a0867e93b0e234f2
+msgid ""
+"The binary data (`bytes`) of the entry. If not found, an exception is "
+"raised."
+msgstr "エントリのバイナリデータ（ `bytes` ）です。見つからない場合は例外が発生します。"
+
+#: ../../archive-class.rst:79 3d32676328d34e37939a65792096baf5
+msgid ""
+"A list of the archive's sub-archives. Each list item is a dictionary with"
+" the following keys:"
+msgstr "アーカイブのサブアーカイブのリストです。各リストアイテムは、次のキーを持つ辞書です："
+
+#: ../../archive-class.rst:81 f4a44efa6e934e2ab4d5b59c1abb3212
+msgid "`entries` -- a list of (top-level) entry names in this sub-archive."
+msgstr "`entries` - このサブアーカイブ内の（トップレベルの）エントリ名のリスト。"
+
+#: ../../archive-class.rst:82 5aefdd53977e4a2aa8c559d7bac700f6
+msgid ""
+"`fmt` -- the format of the sub-archive. This is one of the strings "
+"\"dir\" (file folder), \"zip\" (ZIP archive), \"tar\" (TAR archive), or "
+"\"tree\" for single binary entries or file content."
+msgstr ""
+"`fmt` - サブアーカイブの形式。これは文字列 "
+"\"dir\"（ファイルフォルダ）、\"zip\"（ZIPアーカイブ）、\"tar\"（TARアーカイブ）、または単一のバイナリエントリまたはファイルコンテンツの場合は"
+" \"tree\" のいずれかです。"
+
+#: ../../archive-class.rst:83 ef04652561cc41bca0c8d60f067bb118
+msgid ""
+"`path` -- the value of the `path` parameter under which this sub-archive "
+"was added."
+msgstr "`path` - このサブアーカイブが追加されたパラメータの値です。"
+
+#: ../../archive-class.rst:85 ddd26ce7aa1e42c09e3a7daa19769a5a
+msgid "**Example:**"
+msgstr "**例：** "
+
+#: ../../footer.rst:60 9a53a999980d4a2da538998c8bb29234
+msgid "This documentation covers all versions up to |version|."
+msgstr "このドキュメントは |version| までのすべてのバージョンを対象としています。"
+
+#~ msgid "PyMuPDF は、PDF （およびその他の）ドキュメントのデータ抽出、分析、変換、操作のための高性能な Python ライブラリです。"
+#~ msgstr ""
+
+#~ msgid "PDFテキスト抽出、PDFイメージ抽出、PDF変換、PDFテーブル、PDF分割、PDF作成, Pyodide, PyScript"
+#~ msgstr ""
+
+#~ msgid "Discord logo"
+#~ msgstr ""
+
